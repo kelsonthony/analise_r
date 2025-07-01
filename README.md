@@ -1,4 +1,3 @@
-````markdown
 # Neonatal Trajectory Analysis with TraMineR
 
 This repository contains the complete pipeline for analyzing longitudinal care trajectories of newborns using the [TraMineR](http://traminer.unige.ch) package in R. The goal is to identify and visualize distinct patterns of healthcare utilization across 30 weeks after birth, and classify neonates into meaningful trajectory clusters.
@@ -48,7 +47,8 @@ Pairwise distances using **Optimal Matching (OM)** with constant substitution co
 
 ```r
 dist_mat <- seqdist(seq_obj, method = "OM", indel = 1, sm = "CONSTANT")
-````
+
+```
 
 ### 3. Hierarchical Clustering
 
